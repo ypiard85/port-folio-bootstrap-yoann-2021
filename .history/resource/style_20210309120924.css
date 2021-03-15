@@ -1,0 +1,8 @@
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+header{
+    height: 100vh;
+    background: blue;
+}

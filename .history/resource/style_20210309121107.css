@@ -1,0 +1,10 @@
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+header{
+    height: 100vh;
+    background: gray;
+    background-image: url('./image/yoann_study.jpg');
+    background-repeat: no-repeat;
+}

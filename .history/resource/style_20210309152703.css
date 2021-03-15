@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    transition: 0.3s;
+}
+
+body{
+    font-family: 'Raleway', sans-serif!important;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+nav a{
+    color: white!important;
+}
+
+header{
+    height: 100vh;
+    background: gray;
+    background-image: linear-gradient(90deg, rgba(0,231,249,0.2780462526807598) 100%, rgba(0,4,24,0.4405112386751575) 74%), url('./image/about-section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+header h1{
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.about_card{
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.about_card a{
+    font-family: Arial!important;
+}
+
+.about_me h2{
+    font-weight: bold;
+}
+
+.about_card img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about_card ul{
+    list-style: none;
+    padding: 0;
+}
+
+.about_card i{
+    font-size: 1em;
+    color: black;
+}
+
+.about_card{
+    line-height: 2em;
+}
+
+.about_card li{
+    margin-right: 10px;
+}
+
+.in{
+    transform: translateY(-200px);
+}
+
+.ttile_section{
+    position: relative;
+}
+
+.ttile_section::after{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    background-color: rgb(233, 231, 231);
+    bottom: -10px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+.service_card{
+    height: 250px;
+}

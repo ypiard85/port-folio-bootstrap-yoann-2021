@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    transition: 0.3s;
+}
+
+body{
+    font-family: 'Raleway', sans-serif!important;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+nav a{
+    color: white!important;
+}
+
+header{
+    height: 100vh;
+    background: gray;
+    background-image: linear-gradient(90deg, rgba(0,231,249,0.2780462526807598) 100%, rgba(0,4,24,0.4405112386751575) 74%), url('./image/about-section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+header h1{
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.about_card{
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.about_card a{
+    font-family: Arial!important;
+}
+
+.about_me h2{
+    font-weight: bold;
+}
+
+.about_card img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about_card ul{
+    list-style: none;
+    padding: 0;
+}
+
+.about_card i{
+    font-size: 1em;
+    color: black;
+}
+
+.about_card{
+    line-height: 2em;
+}
+
+.about_card li{
+    margin-right: 10px;
+}
+
+.in{
+    transform: translateY(-200px);
+}
+
+.ttile_section{
+    position: relative;
+}
+
+.ttile_section::after{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    background-color: rgb(233, 231, 231);
+    bottom: -10px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+.service_card{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.service_btn{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+    letter-spacing: .015em;
+text-shadow: 0 0 0 #ce4a27,
+.0025em .0025em 0 #ce4a27,
+.005em .005em 0 #ce4a27,
+.0075em .0075em 0 #ce4a27,
+.01em .01em 0 #ce4a27,
+.0125em .0125em 0 #ce4a27,
+.015em .015em 0 #ce4a27,
+.0175em .0175em 0 #ce4a27,
+.02em .02em 0 #ce4a27,
+.0225em .0225em 0 #ce4a27,
+.025em .025em 0 #ce4a27,
+.0275em .0275em 0 #ce4a27,
+.03em .03em 0 #ce4a27,
+.0325em .0325em 0 #ce4a27,
+.035em .035em 0 #ce4a27,
+.0375em .0375em 0 #ce4a27,
+.04em .04em 0 #ce4a27,
+.0425em .0425em 0 #ce4a27,
+.045em .045em 0 #ce4a27,
+.0475em .0475em 0 #ce4a27,
+.05em .05em 0 #ce4a27,
+.0525em .0525em 0 #ce4a27,
+.055em .055em 0 #ce4a27,
+.0575em .0575em 0 #ce4a27,
+.06em .06em 0 #ce4a27,
+.0625em .0625em 0 #ce4a27,
+.065em .065em 0 #ce4a27,
+.0675em .0675em 0 #ce4a27,
+.07em .07em 0 #ce4a27,
+.0725em .0725em 0 #ce4a27,
+.075em .075em 0 #ce4a27,
+.0775em .0775em 0 #ce4a27,
+.08em .08em 0 #ce4a27,
+.0825em .0825em 0 #ce4a27,
+.085em .085em 0 #ce4a27,
+.0875em .0875em 0 #ce4a27,
+.09em .09em 0 #ce4a27,
+.0925em .0925em 0 #ce4a27,
+.095em .095em 0 #ce4a27,
+.0975em .0975em 0 #ce4a27,
+.1em .1em 0 #ce4a27
+}
+
+.service_btn p{
+    background-color: white;
+    padding: 5px 8px;
+}

@@ -1,0 +1,42 @@
+*{
+    transition: 0.3s;
+}
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+nav a{
+    color: white!important;
+}
+
+header{
+    height: 100vh;
+    background: gray;
+    background-image: linear-gradient(90deg, rgba(0,231,249,0.2780462526807598) 100%, rgba(0,4,24,0.4405112386751575) 74%), url('./image/about-section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+header h1{
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.about_card{
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.about_card img{
+    margin: auto;
+    width: 100%;
+}
+
+.in{
+    transform: translateY(-50px);
+}
